@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COUNTER App | Home</title>
+    <link rel="stylesheet" href="Counter.css" />
+    <script
+      src="https://kit.fontawesome.com/2aa2aaadad.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <!-- ------------ nav bar----------  -->
+      <nav>
+        <h1>LOGI</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- --------------- main-container --------  -->
+
+      <div class="container">
+        <h1>Simple Counter</h1>
+
+        <input type="number" readonly value="0" id="counter" />
+
+        <div class="boxBtn">
+          <button onclick="Increase()">Increase</button>
+          <button onclick="Reset()">Reset</button>
+          <button onclick="Decrease()">Decrese</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ----------------- for ANIMATION ------------ / -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="Counter.js"></script>
+  </body>
+</html>

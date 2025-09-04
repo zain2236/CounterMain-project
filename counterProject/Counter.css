@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  background: #f4f4f5;
+}
+
+header {
+  min-height: 85dvh;
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 40px;
+  background: #fff;
+  box-shadow: 2px 2px 15px rgba(228, 111, 33, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+}
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li a {
+  font-size: 1rem;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: tomato;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: all 4s;
+  letter-spacing: 0.8px;
+}
+ul li a:hover {
+  border-top: 1px solid tomato;
+  border-bottom: 1px solid tomato;
+}
+
+nav h1 {
+  font-size: 2.2rem;
+  color: tomato;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.container {
+  margin-inline: auto;
+  margin-top: 4rem;
+  width: 400px;
+  max-width: 380px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 2px 2px 10px rgba(252, 102, 76, 0.2);
+  overflow: hidden;
+}
+.container h1 {
+  font-size: 2.6rem;
+  letter-spacing: 0.5px;
+  color: tomato;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container input {
+  width: 90%;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: tomato;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.boxBtn {
+  width: 100%;
+  text-align: center;
+}
+.boxBtn button {
+  cursor: pointer;
+  background: tomato;
+  color: white;
+  font-size: 1.1rem;
+  padding: 6px 14px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 1rem;
+  letter-spacing: 0.7px;
+}
+.boxBtn button:hover {
+  background: rgb(236, 88, 66);
+}
+.boxBtn button:active {
+  background: rgb(175, 46, 14);
+}
